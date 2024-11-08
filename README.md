@@ -23,8 +23,8 @@ HMVC allows you to structure your application in a modular manner, making it eas
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/codeigniter-hmvc-php82.git
-cd codeigniter-hmvc-php82
+git clone https://github.com/styleofglobal/CodeIgniter-3-with-HMVC.git
+cd CodeIgniter-3-with-HMVC
 ```
 
 ### Step 2: Install Dependencies (Optional)
@@ -40,11 +40,6 @@ composer install
 1. Ensure your web server points to the `public` directory as the root.
 2. Set up your database (if applicable) and configure it in `application/config/database.php`.
 3. Modify any configurations in `application/config/config.php` (e.g., base URL, encryption keys).
-4. Optionally, you can install the HMVC extension if it's not included:
-
-```bash
-composer require ignited/ignited-hmvc
-```
 
 ### Step 4: Enable Modularity (HMVC)
 
@@ -78,7 +73,7 @@ Ensure your CodeIgniter application works with PHP 8.2. Some minor adjustments m
 After setting up the environment and configuring your database, you can access the application by navigating to the base URL in your browser:
 
 ```
-http://localhost/your-app-name
+http://localhost/CodeIgniter-3-with-HMVC
 ```
 
 ## Example: Creating a Module
@@ -154,7 +149,7 @@ Here’s how to structure a basic module:
     </ul>
     ```
 
-Now, if you visit `http://localhost/your-app-name/blog`, it will load the blog module.
+Now, if you visit `http://localhost/CodeIgniter-3-with-HMVC/blog`, it will load the blog module.
 
 ## Contributing
 
