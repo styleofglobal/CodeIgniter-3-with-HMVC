@@ -1,12 +1,26 @@
 .DS_Store
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!system/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
 
 application/cache/*
 !application/cache/index.html
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
 
+#codeigniter 3
 application/logs/*
 !application/logs/index.html
 
 !application/*/.htaccess
+!application/logs/.htaccess
+/vendor/
 
 composer.lock
 tests/mocks/database/ci_test.sqlite
@@ -16,6 +30,10 @@ user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 /vendor/
+
+# Dev. Files & Folders
+#-------------------------
+backups/*
 
 # IDE Files
 #-------------------------
@@ -30,3 +48,6 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 /tests/tests/
 /tests/results/
+
+#cPanel
+#.cpanel.yml
