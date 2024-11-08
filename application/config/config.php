@@ -3,19 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
 |--------------------------------------------------------------------------
-| codeigniter-modular-extensions-hmvc Configuration
-|--------------------------------------------------------------------------
-| You may want to configure where your modules should be loaded from.
-| Just set the $config['modules_locations'] in your application/config/config.php:
-| Modules location
-*/
-// $config['modules_locations'] = array(
-//     APPPATH . 'modules/' => '../modules/',
-// );
-
-
-/*
-|--------------------------------------------------------------------------
 | Base Site URL
 |--------------------------------------------------------------------------
 |
@@ -36,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/hmvc_ci3/';
+$config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------
